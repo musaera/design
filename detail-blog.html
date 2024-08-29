@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Blog - WebtechID</title>
+    <link rel="stylesheet" href="style/detail-blog.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        </div>
+        <ul class="nav-links" id="navLinks" style="z-index: 10">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container" style="margin-top: 6rem">
+      <article class="blog-detail">
+        <img
+          src="images/images (10).jpg"
+          alt="Blog Image"
+          class="blog-image"
+        />
+        <h2 class="blog-title">Boost your conversion rate</h2>
+        <div class="blog-meta">
+          <span class="blog-author">By John Doe</span>
+          <span class="blog-date">July 29, 2024</span>
+          <span class="blog-views">1234 Views</span>
+          <span class="blog-comments">56 Comments</span>
+        </div>
+        <div class="blog-content">
+          <p>
+            The standard Lorem Ipsum passage, used since the 1500s "Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, prevents our being able to do what we like best, every
+            pleasure is to be welcomed and every pain avoided. But in certain
+            circumstances and owing to the claims of duty or the obligations of
+            business it will frequently occur that pleasures have to be
+            repudiated and annoyances accepted. The wise man therefore always
+            holds in these matters to this principle of selection: he rejects
+            pleasures to secure other greater pleasures, or else he endures
+            pains to avoid worse pains."
+          </p>
+          <!-- More blog content here -->
+        </div>
+      </article>
+
+      <!-- Comment Section -->
+      <section class="comments-section">
+        <h3 class="section-title">Comments (56)</h3>
+        <div class="comment">
+          <img
+            src="images/images (10).jpg"
+            alt=""
+            class="comment-user-image"
+          />
+          <div class="comment-content">
+            <p class="comment-name">Jane Doe</p>
+            <p class="comment-date">July 29, 2024</p>
+            <p class="comment-text">Great post! Really enjoyed reading this.</p>
+          </div>
+        </div>
+        <!-- Repeat for more comments -->
+      </section>
+
+      <!-- Comment Form Section -->
+      <section class="comment-form">
+        <h3 class="section-title">Leave a Comment</h3>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="subject" placeholder="Subject (Optional)" />
+          <input
+            type="url"
+            name="website"
+            placeholder="Your Website (Optional)"
+          />
+          <textarea
+            name="comment"
+            placeholder="Your Comment"
+            required
+          ></textarea>
+          <!-- Replace with a real captcha -->
+          <input type="text" name="captcha" placeholder="Enter Captcha" />
+          <button type="submit">Submit Comment</button>
+        </form>
+      </section>
+    </main>
+
+    <div class="container">
+      <h3>Tag Populer</h3>
+      <section class="tags">
+        <div class="tag-list">
+          <a href="#" class="tag">Marketing</a>
+          <a href="#" class="tag">Design</a>
+          <a href="#" class="tag">Development</a>
+          <a href="#" class="tag">Business</a>
+          <a href="#" class="tag">Technology</a>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 WebtechID. All rights reserved. | Created by Saeful R.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
